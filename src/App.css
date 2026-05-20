@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+/* fonts declaration Starts */
+@font-face {
+  font-family: "Urbanist";
+  src: url("./assets/fonts/Urbanist/Urbanist-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Urbanist";
+  src: url("./assets/fonts/Urbanist/Urbanist-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Audiowide";
+  src: url("./assets/fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* fonts declaration Ends */
+
+html {
+  background-color: #0c1d32;
+  color: #fffbfc;
+}
+
+/* Header Section Starts */
+.header-section {
+  background-color: #0c1d32;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.green-style {
+  color: #00ff8b;
+  font-weight: 700;
+}
+
+.navbar-and-btn {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+.navbar ul > li {
+  list-style-type: none;
+}
+.navbar ul > li:hover {
+  text-decoration: underline #00ff8b 3px;
+  cursor: pointer;
+}
+
+.resume-btn button {
+  background-color: #00ff8b;
+  height: 2rem;
+  width: 7rem;
+  border-radius: 5px;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+/* Header Section Ends */
