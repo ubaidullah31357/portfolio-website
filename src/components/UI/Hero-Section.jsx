@@ -1,5 +1,6 @@
 import { FaGithub, FaGitlab, FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript, IoMdGitBranch } from "react-icons/io";
+import { TypedComponent } from "./typedComponent";
 
 export const HeroSection = () => {
   return (
@@ -15,9 +16,7 @@ export const HeroSection = () => {
         <div className="hero-intro-container">
           <p className="hero-intro-para">
             Hi, I am Ubaid Ullah<span className="green-style">.</span>
-            <span className="skill">
-              Frontend Web Dev<span className="pipe-animation">|</span>
-            </span>
+            <TypedComponent />
           </p>
           <div className="tech-icons">
             <FaHtml5 />

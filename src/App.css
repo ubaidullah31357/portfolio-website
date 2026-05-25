@@ -102,7 +102,6 @@ button {
 /* Footer Section Starts */
 .footer-section {
   width: 100%;
-  background-color: #0f2135;
   position: fixed;
   bottom: 0;
   padding: 1rem 2rem;
@@ -192,7 +191,7 @@ button {
   bottom: 82px;
 }
 .hero-intro-container {
-  width: 40%;
+  width: 55%;
   height: 30%;
   order: 0;
 }
@@ -200,10 +199,16 @@ button {
   font-size: 2rem;
   font-family: "Audiowide";
 }
-.hero-intro-para span.skill {
+.hero-intro-para div.typed-component {
   display: block;
   color: gray;
   font-family: "Audiowide";
+}
+.hero-intro-para div > span {
+  font-family: "Audiowide";
+}
+.typed-cursor {
+  color: #00ff8b;
 }
 .tech-icons {
   display: flex;
@@ -211,22 +216,6 @@ button {
   margin: 1rem 0;
   font-size: 1.5rem;
   gap: 1rem;
-}
-.pipe-animation {
-  color: #00ff8b;
-  animation: pipe-animation 0.4s ease-in-out 2ms infinite alternate-reverse;
-}
-
-@keyframes pipe-animation {
-  0% {
-    color: #00ff8b;
-  }
-  70% {
-    color: #0c1d32;
-  }
-  100% {
-    color: #0c1d32;
-  }
 }
 /* Hero Section Ends */
 
@@ -288,7 +277,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 12rem;
   overflow: hidden;
 }
 .icons-slider {
@@ -299,7 +288,6 @@ textarea {
   animation: social-icons-slider 25s linear 2ms infinite;
   width: max-content;
   gap: 2rem;
-  width: max-content;
 }
 .icons-slider > a {
   color: #fffbfc;
