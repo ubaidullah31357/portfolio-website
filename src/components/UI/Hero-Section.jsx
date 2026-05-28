@@ -1,5 +1,10 @@
 import { FaGithub, FaGitlab, FaHtml5, FaReact } from "react-icons/fa";
-import { IoLogoCss3, IoLogoJavascript, IoMdGitBranch } from "react-icons/io";
+import {
+  IoLogoCss3,
+  IoLogoJavascript,
+  IoLogoWordpress,
+  IoMdGitBranch,
+} from "react-icons/io";
 import { TypedComponent } from "./typedComponent";
 
 export const HeroSection = () => {
@@ -24,6 +29,7 @@ export const HeroSection = () => {
             <IoLogoJavascript />
             <FaReact />
             <FaGithub />
+            <IoLogoWordpress />
           </div>
         </div>
       </div>

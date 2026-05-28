@@ -12,8 +12,10 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="footer-section">
-      <div className="footer-contact-section">
+    <>
+      <div className="footer-spacer"></div>
+      <footer className="footer-section">
+        {/* <div className="footer-contact-section">
         {footerData.map((CurrentItem, index) => {
           return (
             <article className="footer-contact" key={index}>
@@ -27,44 +29,48 @@ export const Footer = () => {
             </article>
           );
         })}
-      </div>
-      <div className="copyright-area">
-        <div className="copyright-text">
-          <p>
-            Copyright &copy; 2026, All Rights Reserved by{" "}
-            <NavLink
-              to="https://www.linkedin.com/in/ubaid-ullah-swati/"
-              target="_blank"
-            >
-              Ubaid Ullah
-            </NavLink>
-          </p>
-        </div>
-
-        <div className="footer-menu">
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
+      </div> */}
+        <div className="copyright-area">
+          <div className="copyright-text">
+            <p>
+              Copyright &copy; 2026, All Rights Reserved by{" "}
               <NavLink
-                to="https://www.instagram.com/ubaidullah31357?utm_source=qr&igsh=cHIwMHU5aDIwdjNi"
+                to="https://www.linkedin.com/in/ubaid-ullah-swati/"
                 target="_blank"
               >
-                Social
+                Ubaid Ullah
               </NavLink>
-            </li>
-            <li>
-              <NavLink to="https://github.com/ubaidullah31357" target="_blank">
-                GitHub
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-          </ul>
+            </p>
+          </div>
+
+          <div className="footer-menu">
+            <ul>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="https://www.instagram.com/ubaidullah31357?utm_source=qr&igsh=cHIwMHU5aDIwdjNi"
+                  target="_blank"
+                >
+                  Insta
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="https://github.com/ubaidullah31357"
+                  target="_blank"
+                >
+                  GitHub
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 };

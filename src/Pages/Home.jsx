@@ -1,9 +1,13 @@
-import { HeroSection } from "../components/UI/Hero-Section";
+import { About } from "./About";
+import { Projects } from "./Projects";
+import { Experience } from "./Experience";
 
 export const Home = () => {
   return (
     <>
-      <HeroSection />
+      <About />
+      <Projects />
+      {/* <Experience /> */}
     </>
   );
 };

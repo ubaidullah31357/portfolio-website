@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Quicksand";
 }
+a {
+  text-decoration: none;
+}
 /* fonts declaration Starts */
 @font-face {
   font-family: "Urbanist";
@@ -100,6 +103,9 @@ button {
 /* Header Section Ends */
 
 /* Footer Section Starts */
+.footer-spacer {
+  height: 10rem;
+}
 .footer-section {
   width: 100%;
   position: fixed;
@@ -272,12 +278,17 @@ textarea {
 /* Contact Page Ends */
 
 /* About Page Starts */
+.social-main-section {
+  height: 8rem;
+  padding: 1rem 2rem;
+  margin: 1rem 12rem;
+}
 .social-section {
+  margin-top: 5px;
   height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 12rem;
   overflow: hidden;
 }
 .icons-slider {
@@ -303,10 +314,10 @@ textarea {
 }
 @keyframes social-icons-slider {
   0% {
-    transform: translateX(62vw);
+    transform: translateX(55vw);
   }
   100% {
-    transform: translateX(-80vw);
+    transform: translateX(-50vw);
   }
 }
 @keyframes icons-hover {
@@ -318,3 +329,68 @@ textarea {
   }
 }
 /* About Page Ends */
+
+/* Projects Page Starts */
+.projects-section {
+  margin-top: 1.6rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.indivisual-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:
+    3px 4px 8px 0 rgba(0, 0, 0, 0.5),
+    3px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem 1rem;
+  background-color: #0c1d32;
+}
+.indivisual-project-img > img {
+  width: 20rem;
+  height: 13rem;
+}
+.projects-url {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.projects-url > a > button {
+  padding: 5px 10px;
+  background-color: #07254f;
+  color: #fffbfc;
+  margin: 1rem 0 0.8rem;
+  border: 2px solid #081c38;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+.project-details-btn {
+  width: 10rem;
+  padding: 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #07254f;
+  color: #fffbfc;
+  border: 2px solid #081c38;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+/* Projects Page Ends */

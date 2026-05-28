@@ -1,0 +1,41 @@
+[
+  {
+    "projectID": 1,
+    "projectName": "WorldAtlas Project",
+    "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
+    "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
+    "sourceCodeURL": "",
+    "techUsed": {
+      "coreTech": "HTML, CSS, JavaScript, React",
+      "sideTech": "React Axios, React Router DOM, React Icons"
+    },
+    "problemSolved": "",
+    "Description": ""
+  },
+  {
+    "projectID": 2,
+    "projectName": "WorldAtlas Project",
+    "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
+    "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
+    "sourceCodeURL": "",
+    "techUsed": {
+      "coreTech": "HTML, CSS, JavaScript, React",
+      "sideTech": "React Axios, React Router DOM, React Icons"
+    },
+    "problemSolved": "",
+    "Description": ""
+  },
+  {
+    "projectID": 3,
+    "projectName": "WorldAtlas Project",
+    "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
+    "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
+    "sourceCodeURL": "",
+    "techUsed": {
+      "coreTech": "HTML, CSS, JavaScript, React",
+      "sideTech": "React Axios, React Router DOM, React Icons"
+    },
+    "problemSolved": "",
+    "Description": ""
+  }
+]
