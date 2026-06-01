@@ -2,34 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Quicksand";
+  font-family: 'Quicksand';
 }
 a {
   text-decoration: none;
 }
 /* fonts declaration Starts */
 @font-face {
-  font-family: "Urbanist";
-  src: url("./assets/fonts/Urbanist/Urbanist-Regular.ttf") format("truetype");
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist/Urbanist-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Urbanist";
-  src: url("./assets/fonts/Urbanist/Urbanist-Bold.ttf") format("truetype");
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist/Urbanist-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "Audiowide";
-  src: url("./assets/fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+  font-family: 'Audiowide';
+  src: url('./assets/fonts/Audiowide/Audiowide-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf")
-    format("truetype");
+  font-family: 'Quicksand';
+  src: url('./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf')
+    format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -104,12 +104,12 @@ button {
 
 /* Footer Section Starts */
 .footer-spacer {
-  height: 10rem;
+  height: 4rem;
 }
 .footer-section {
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  /* bottom: 0; */
   padding: 1rem 2rem;
 }
 .footer-contact-section {
@@ -203,15 +203,15 @@ button {
 }
 .hero-intro-para {
   font-size: 2rem;
-  font-family: "Audiowide";
+  font-family: 'Audiowide';
 }
 .hero-intro-para div.typed-component {
   display: block;
   color: gray;
-  font-family: "Audiowide";
+  font-family: 'Audiowide';
 }
 .hero-intro-para div > span {
-  font-family: "Audiowide";
+  font-family: 'Audiowide';
 }
 .typed-cursor {
   color: #00ff8b;
@@ -291,6 +291,16 @@ textarea {
   align-items: center;
   overflow: hidden;
 }
+.social-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.social-heading > svg {
+  color: #00ff8b;
+}
 .icons-slider {
   display: flex;
   justify-content: center;
@@ -345,7 +355,7 @@ textarea {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .indivisual-project {
   display: flex;
@@ -356,6 +366,15 @@ textarea {
     3px 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 2rem 1rem;
   background-color: #0c1d32;
+  border-radius: 5px;
+  width: 100%;
+}
+.project-shown-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
 }
 .indivisual-project-img > img {
   width: 20rem;
@@ -372,6 +391,7 @@ textarea {
   color: #fffbfc;
   margin: 1rem 0 0.8rem;
   border: 2px solid #081c38;
+  box-shadow: 1px 2px 1px 0px #000;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -379,18 +399,9 @@ textarea {
   gap: 4px;
   font-size: 0.9rem;
 }
-.project-details-btn {
-  width: 10rem;
-  padding: 8px 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background-color: #07254f;
-  color: #fffbfc;
-  border: 2px solid #081c38;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: 600;
+.projects-url > a > button:active,
+.project-details-btn:active {
+  background-color: #092041;
+  color: #07e983;
 }
 /* Projects Page Ends */

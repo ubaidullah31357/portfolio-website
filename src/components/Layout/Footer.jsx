@@ -1,8 +1,8 @@
-import footerData from "../../api/footerApi.json";
-import { IoCallSharp } from "react-icons/io5";
-import { MdPlace } from "react-icons/md";
-import { TbMailPlus } from "react-icons/tb";
-import { NavLink } from "react-router-dom";
+import footerData from '../../api/footerApi.json';
+import { IoCallSharp } from 'react-icons/io5';
+import { MdPlace } from 'react-icons/md';
+import { TbMailPlus } from 'react-icons/tb';
+import { NavLink } from 'react-router-dom';
 
 export const Footer = () => {
   const footerIcons = {
@@ -15,25 +15,25 @@ export const Footer = () => {
     <>
       <div className="footer-spacer"></div>
       <footer className="footer-section">
-        {/* <div className="footer-contact-section">
-        {footerData.map((CurrentItem, index) => {
-          return (
-            <article className="footer-contact" key={index}>
-              <div className="footer-contact-icons">
-                {footerIcons[CurrentItem.icon]}
-              </div>
-              <div className="footer-contact-text">
-                <p>{CurrentItem.title}</p>
-                <p className="small">{CurrentItem.details}</p>
-              </div>
-            </article>
-          );
-        })}
-      </div> */}
+        <div className="footer-contact-section">
+          {footerData.map((CurrentItem, index) => {
+            return (
+              <article className="footer-contact" key={index}>
+                <div className="footer-contact-icons">
+                  {footerIcons[CurrentItem.icon]}
+                </div>
+                <div className="footer-contact-text">
+                  <p>{CurrentItem.title}</p>
+                  <p className="small">{CurrentItem.details}</p>
+                </div>
+              </article>
+            );
+          })}
+        </div>
         <div className="copyright-area">
           <div className="copyright-text">
             <p>
-              Copyright &copy; 2026, All Rights Reserved by{" "}
+              Copyright &copy; 2026, All Rights Reserved by{' '}
               <NavLink
                 to="https://www.linkedin.com/in/ubaid-ullah-swati/"
                 target="_blank"

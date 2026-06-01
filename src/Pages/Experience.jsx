@@ -1,3 +1,3 @@
 export const Experience = () => {
-    return <h1>Experience Page</h1>
-}
+  return <h1>Experience Page</h1>;
+};

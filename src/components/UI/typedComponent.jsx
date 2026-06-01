@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import Typed from "typed.js";
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
 
 export function TypedComponent() {
   // Create reference to store the DOM element containing the animation
@@ -8,9 +8,9 @@ export function TypedComponent() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Frontend Web Developer",
-        "Wordpress Designer",
-        "Certified Ethical Hacker",
+        'Frontend Web Developer',
+        'Wordpress Designer',
+        'Certified Ethical Hacker',
       ],
       typeSpeed: 60,
       loop: true,

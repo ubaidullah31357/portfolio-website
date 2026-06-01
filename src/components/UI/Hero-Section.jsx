@@ -1,11 +1,11 @@
-import { FaGithub, FaGitlab, FaHtml5, FaReact } from "react-icons/fa";
+import { FaGithub, FaGitlab, FaHtml5, FaReact } from 'react-icons/fa';
 import {
   IoLogoCss3,
   IoLogoJavascript,
   IoLogoWordpress,
   IoMdGitBranch,
-} from "react-icons/io";
-import { TypedComponent } from "./typedComponent";
+} from 'react-icons/io';
+import { TypedComponent } from './typedComponent';
 
 export const HeroSection = () => {
   return (

@@ -4,38 +4,25 @@
     "projectName": "WorldAtlas Project",
     "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
     "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
-    "sourceCodeURL": "",
+    "sourceCodeURL": "https://github.com/ubaidullah31357/WorldAtlas-ReactProject",
     "techUsed": {
       "coreTech": "HTML, CSS, JavaScript, React",
       "sideTech": "React Axios, React Router DOM, React Icons"
     },
     "problemSolved": "",
-    "Description": ""
+    "projectDescription": "WorldAtlas is an interactive web application that allows users to explore and discover information about countries around the world. It's built with React and Vite, using the REST Countries API to fetch real-time country data."
   },
   {
     "projectID": 2,
-    "projectName": "WorldAtlas Project",
-    "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
-    "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
-    "sourceCodeURL": "",
+    "projectName": "Assembly: Endgame",
+    "projectThumbnail": "/src/assets/Media/Images/Endgame1.png",
+    "liveDemoURL": "https://endgame-assembly-game.vercel.app/",
+    "sourceCodeURL": "https://github.com/ubaidullah31357/endgame-assembly-game",
     "techUsed": {
       "coreTech": "HTML, CSS, JavaScript, React",
-      "sideTech": "React Axios, React Router DOM, React Icons"
+      "sideTech": ""
     },
     "problemSolved": "",
-    "Description": ""
-  },
-  {
-    "projectID": 3,
-    "projectName": "WorldAtlas Project",
-    "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
-    "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
-    "sourceCodeURL": "",
-    "techUsed": {
-      "coreTech": "HTML, CSS, JavaScript, React",
-      "sideTech": "React Axios, React Router DOM, React Icons"
-    },
-    "problemSolved": "",
-    "Description": ""
+    "projectDescription": ""
   }
 ]

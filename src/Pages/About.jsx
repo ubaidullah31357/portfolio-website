@@ -3,18 +3,21 @@ import {
   IoLogoInstagram,
   IoLogoLinkedin,
   IoLogoWhatsapp,
-} from "react-icons/io";
-import { HeroSection } from "../components/UI/Hero-Section";
-import { IoCallSharp } from "react-icons/io5";
-import { TbBrandFiverr, TbBrandLeetcode, TbMailPlus } from "react-icons/tb";
-import { NavLink } from "react-router-dom";
+} from 'react-icons/io';
+import { HeroSection } from '../components/UI/Hero-Section';
+import { IoCallSharp } from 'react-icons/io5';
+import { TbBrandFiverr, TbBrandLeetcode, TbMailPlus } from 'react-icons/tb';
+import { NavLink } from 'react-router-dom';
+import { LuMessageSquareShare } from 'react-icons/lu';
 
 export const About = () => {
   return (
     <>
-      <HeroSection />
+        <HeroSection />
       <section className="social-main-section">
-        <h2>Catch Me On</h2>
+        <h2 className="social-heading">
+          Catch Me On <LuMessageSquareShare />
+        </h2>
         <div className="social-section">
           <div className="icons-slider">
             <NavLink

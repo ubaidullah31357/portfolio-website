@@ -1,35 +1,35 @@
-import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { AppLayout } from "./components/Layout/AppLayout";
-import { Home } from "./Pages/Home";
-import { About } from "./Pages/About";
-import { Projects } from "./Pages/Projects";
-import { Experience } from "./Pages/Experience";
-import { Contact } from "./Pages/Contact";
+import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { AppLayout } from './components/Layout/AppLayout';
+import { Home } from './Pages/Home';
+import { About } from './Pages/About';
+import { Projects } from './Pages/Projects';
+import { Experience } from './Pages/Experience';
+import { Contact } from './Pages/Contact';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <AppLayout />,
     children: [
       {
-        path: "/",
+        path: '/',
         element: <Home />,
       },
       {
-        path: "/about",
+        path: '/about',
         element: <About />,
       },
       {
-        path: "/projects",
+        path: '/projects',
         element: <Projects />,
       },
       {
-        path: "/experience",
+        path: '/experience',
         element: <Experience />,
       },
       {
-        path: "/contact",
+        path: '/contact',
         element: <Contact />,
       },
     ],

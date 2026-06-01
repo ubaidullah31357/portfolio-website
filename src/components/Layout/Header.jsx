@@ -1,5 +1,5 @@
-import { HiOutlineBriefcase } from "react-icons/hi";
-import { NavLink } from "react-router-dom";
+import { HiOutlineBriefcase } from 'react-icons/hi';
+import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
   return (
