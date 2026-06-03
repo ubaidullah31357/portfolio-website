@@ -6,13 +6,15 @@ import {
   IoOpen,
   IoOpenOutline,
 } from 'react-icons/io5';
-import { FaLongArrowAltRight } from 'react-icons/fa';
+import { FaFolderOpen, FaLongArrowAltRight } from 'react-icons/fa';
 import { Github } from '@hugeicons/core-free-icons';
 export const Projects = () => {
   return (
     <>
       <section className="projects-section">
-        <h1>Projects Completed</h1>
+        <h2 className="heading-and-icon">
+          Projects Completed <FaFolderOpen />
+        </h2>
         <div className="projects">
           {projectsData.map((project) => {
             return (
@@ -25,7 +27,7 @@ export const Projects = () => {
                         Live Demo <IoOpenOutline />
                       </button>
                     </NavLink>
-                    <NavLink to={project.su} target="_blank">
+                    <NavLink to={project.sourceCodeURL} target="_blank">
                       <button>
                         Source Code <IoLogoGithub />
                       </button>
@@ -33,9 +35,25 @@ export const Projects = () => {
                   </div>
                 </div>
                 <div className="project-hidden-part">
-                  <p className="project-description">
-                    {project.projectDescription}
-                  </p>
+                  <div className="project-description">
+                    <p className="project-description-para">
+                      {project.projectDescription}
+                    </p>
+                    <div className="project-description-tech">
+                      <p>
+                        <span className="project-tech-used">Core Tech: </span>
+                        {project.techUsed.coreTech}
+                      </p>
+                      {project.techUsed.otherTech != '' && (
+                        <p>
+                          <span className="project-tech-used">
+                            Helping Tech:{' '}
+                          </span>
+                          {project.techUsed.otherTech}
+                        </p>
+                      )}
+                    </div>
+                  </div>
                   <figure className="indivisual-project-img">
                     <img
                       src={project.projectThumbnail}

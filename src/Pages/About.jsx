@@ -8,15 +8,16 @@ import { HeroSection } from '../components/UI/Hero-Section';
 import { IoCallSharp } from 'react-icons/io5';
 import { TbBrandFiverr, TbBrandLeetcode, TbMailPlus } from 'react-icons/tb';
 import { NavLink } from 'react-router-dom';
-import { LuMessageSquareShare } from 'react-icons/lu';
+import { FaLink } from 'react-icons/fa';
+import { SiX } from 'react-icons/si';
 
 export const About = () => {
   return (
     <>
-        <HeroSection />
+      <HeroSection />
       <section className="social-main-section">
         <h2 className="social-heading">
-          Catch Me On <LuMessageSquareShare />
+          Connect With Me <FaLink />
         </h2>
         <div className="social-section">
           <div className="icons-slider">
@@ -44,9 +45,9 @@ export const About = () => {
             <NavLink to="https://leetcode.com/u/Ubaid_Ullah/" target="_blank">
               <TbBrandLeetcode />
             </NavLink>
-            {/* <IoLogoWhatsapp />
-          <IoCallSharp />
-          <TbMailPlus /> */}
+            <NavLink to="https://x.com/UbaidUllah31357" target="_blank">
+              <SiX />
+            </NavLink>
           </div>
         </div>
       </section>

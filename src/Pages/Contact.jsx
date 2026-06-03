@@ -2,7 +2,7 @@ export const Contact = () => {
   return (
     <section className="contact-section">
       <h1 className="contact-heading">Contact Us</h1>
-      <form action="" id="contact-form">
+      <form id="contact-form">
         <label for="username">
           <input
             type="text"

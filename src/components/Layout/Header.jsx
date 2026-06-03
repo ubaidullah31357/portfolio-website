@@ -1,4 +1,11 @@
-import { HiOutlineBriefcase } from 'react-icons/hi';
+import { FaAddressBook } from 'react-icons/fa';
+import {
+  HiAcademicCap,
+  HiFolder,
+  HiOutlineBriefcase,
+  HiUser,
+} from 'react-icons/hi';
+import { IoHomeSharp, IoInformationOutline } from 'react-icons/io5';
 import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
@@ -13,19 +20,29 @@ export const Header = () => {
         <nav className="navbar">
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">
+                <IoHomeSharp /> Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/about">About Me</NavLink>
+              <NavLink to="/about">
+                <HiUser /> About
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/projects">
+                <HiFolder /> Projects
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/experience">Experience</NavLink>
+              <NavLink to="/experience">
+                <HiAcademicCap /> Experience
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact Me</NavLink>
+              <NavLink to="/contact">
+                <FaAddressBook /> Contact
+              </NavLink>
             </li>
           </ul>
         </nav>

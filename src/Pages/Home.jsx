@@ -7,7 +7,7 @@ export const Home = () => {
     <>
       <About />
       <Projects />
-      {/* <Experience /> */}
+      <Experience />
     </>
   );
 };

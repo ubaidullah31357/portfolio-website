@@ -2,12 +2,12 @@
   {
     "projectID": 1,
     "projectName": "WorldAtlas Project",
-    "projectThumbnail": "/src/assets/Media/Images/world-atlas-thumbnail.png",
+    "projectThumbnail": "/Images/world-atlas-thumbnail.png",
     "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
     "sourceCodeURL": "https://github.com/ubaidullah31357/WorldAtlas-ReactProject",
     "techUsed": {
       "coreTech": "HTML, CSS, JavaScript, React",
-      "sideTech": "React Axios, React Router DOM, React Icons"
+      "otherTech": "React Axios, React Router DOM, React Icons"
     },
     "problemSolved": "",
     "projectDescription": "WorldAtlas is an interactive web application that allows users to explore and discover information about countries around the world. It's built with React and Vite, using the REST Countries API to fetch real-time country data."
@@ -15,14 +15,14 @@
   {
     "projectID": 2,
     "projectName": "Assembly: Endgame",
-    "projectThumbnail": "/src/assets/Media/Images/Endgame1.png",
+    "projectThumbnail": "/Images/Endgame1.png",
     "liveDemoURL": "https://endgame-assembly-game.vercel.app/",
     "sourceCodeURL": "https://github.com/ubaidullah31357/endgame-assembly-game",
     "techUsed": {
       "coreTech": "HTML, CSS, JavaScript, React",
-      "sideTech": ""
+      "otherTech": "React Confetti"
     },
     "problemSolved": "",
-    "projectDescription": ""
+    "projectDescription": "Assembly — Endgame is  A lightweight React word-guessing game (Hangman-style) that combines playful visuals with accessible UI patterns. Word-guessing gameplay with A–Z keyboard buttons. Visual 'language chips' represent remaining attempts; wrong guesses mark chips as lost."
   }
 ]

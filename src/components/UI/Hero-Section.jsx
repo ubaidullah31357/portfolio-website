@@ -13,7 +13,7 @@ export const HeroSection = () => {
       <div className="sub-hero-section">
         <div className="hero-image-container">
           <img
-            src="/src/assets/Media/Images/Ubaidullah.png"
+            src="/Images/Ubaidullah.png"
             alt="The author's image"
             className="hero-image"
           />
