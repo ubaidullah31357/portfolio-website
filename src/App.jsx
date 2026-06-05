@@ -6,6 +6,9 @@ import { About } from './Pages/About';
 import { Projects } from './Pages/Projects';
 import { Experience } from './Pages/Experience';
 import { Contact } from './Pages/Contact';
+import emailjs from '@emailjs/browser';
+
+emailjs.init(import.meta.env.VITE_PUBLIC_KEY);
 
 const router = createBrowserRouter([
   {
