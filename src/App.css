@@ -286,6 +286,29 @@ textarea {
 #contac-form > inputs:focus {
   background-color: #081c38;
 }
+
+.mail-section {
+  padding: 1rem 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.mail-button {
+  padding: 0.6rem 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #0c1d32;
+  border-radius: 30px;
+}
+.mail-button:hover {
+  background-color: #00ff8b;
+}
+.mail-button:active {
+  background-color: #07e983;
+}
 /* Contact Page Ends */
 
 /* About Page Starts */
