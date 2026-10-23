@@ -65,7 +65,7 @@ export const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/#contact">Contact</NavLink>
               </li>
             </ul>
           </div>

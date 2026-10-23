@@ -1,11 +1,11 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from 'react-router-dom';
 import { AppLayout } from './components/Layout/AppLayout';
 import { Home } from './Pages/Home';
-import { About } from './Pages/About';
-import { Projects } from './Pages/Projects';
-import { Experience } from './Pages/Experience';
-import { Contact } from './Pages/Contact';
 import emailjs from '@emailjs/browser';
 
 emailjs.init(import.meta.env.VITE_PUBLIC_KEY);
@@ -21,19 +21,19 @@ const router = createBrowserRouter([
       },
       {
         path: '/about',
-        element: <About />,
+        element: <Navigate to="/#about" replace />,
       },
       {
         path: '/projects',
-        element: <Projects />,
+        element: <Navigate to="/#projects" replace />,
       },
       {
         path: '/experience',
-        element: <Experience />,
+        element: <Navigate to="/#experience" replace />,
       },
       {
         path: '/contact',
-        element: <Contact />,
+        element: <Navigate to="/#contact" replace />,
       },
     ],
   },

@@ -3,7 +3,7 @@ import { HiAcademicCap, HiOutlineBookOpen } from 'react-icons/hi';
 export const Experience = () => {
   return (
     <>
-      <section className="experience-section">
+      <section className="experience-section" id="experience">
         <h3 className="heading-and-icon">
           Learned Experience <HiOutlineBookOpen />
         </h3>

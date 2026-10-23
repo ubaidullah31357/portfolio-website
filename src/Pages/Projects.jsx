@@ -11,7 +11,7 @@ import { Github } from '@hugeicons/core-free-icons';
 export const Projects = () => {
   return (
     <>
-      <section className="projects-section">
+      <section className="projects-section" id="projects">
         <h2 className="heading-and-icon">
           Projects Completed <FaFolderOpen />
         </h2>

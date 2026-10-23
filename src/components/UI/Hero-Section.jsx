@@ -9,7 +9,7 @@ import { TypedComponent } from './typedComponent';
 
 export const HeroSection = () => {
   return (
-    <main className="hero-section">
+    <main className="hero-section" id="about">
       <div className="sub-hero-section">
         <div className="hero-image-container">
           <img

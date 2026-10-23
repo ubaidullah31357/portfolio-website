@@ -31,7 +31,7 @@ export const Contact = () => {
     console.log(import.meta.env.VITE_PUBLIC_KEY);
   };
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <h1 className="contact-heading">Contact Us</h1>
       <form id="contact-form" onSubmit={handleOnSubmit}>
         <label htmlFor="username">

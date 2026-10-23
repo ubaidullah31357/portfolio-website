@@ -25,22 +25,22 @@ export const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about">
+              <NavLink to="/#about">
                 <HiUser /> About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/projects">
+              <NavLink to="/#projects">
                 <HiFolder /> Projects
               </NavLink>
             </li>
             <li>
-              <NavLink to="/experience">
+              <NavLink to="/#experience">
                 <HiAcademicCap /> Experience
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact">
+              <NavLink to="/#contact">
                 <FaAddressBook /> Contact
               </NavLink>
             </li>

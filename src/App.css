@@ -38,6 +38,7 @@ a {
 html {
   background-color: #0c1d32;
   color: #fffbfc;
+  scroll-behavior: smooth;
 }
 a,
 button {
