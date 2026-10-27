@@ -3,7 +3,7 @@
     "projectID": 1,
     "projectName": "WorldAtlas - Country Explorer",
     "projectType": "ReactJS",
-    "projectThumbnail": "/public/Images/world-atlas-thumbnail.png",
+    "projectThumbnail": "/Images/world-atlas-thumbnail.png",
     "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
     "sourceCodeURL": "https://github.com/ubaidullah31357/WorldAtlas-ReactProject",
     "techUsed": {
@@ -32,7 +32,7 @@
     "projectID": 2,
     "projectName": "Endgame - Assembly Game",
     "projectType": "ReactJS",
-    "projectThumbnail": "/public/Images/Endgame1.png",
+    "projectThumbnail": "/Images/Endgame1.png",
     "liveDemoURL": "https://endgame-assembly-game.vercel.app/",
     "sourceCodeURL": "https://github.com/ubaidullah31357/endgame-assembly-game",
     "techUsed": {
@@ -63,7 +63,7 @@
     "projectID": 3,
     "projectName": "WonFast - E-Commerce Site",
     "projectType": "WordPress",
-    "projectThumbnail": "/public/Images/wonfast-thumbnail.PNG",
+    "projectThumbnail": "/Images/wonfast-thumbnail.PNG",
     "liveDemoURL": "https://wonfast.co.uk/",
     "sourceCodeURL": "",
     "techUsed": {
@@ -95,7 +95,7 @@
     "projectID": 4,
     "projectName": "GMK Welfare Organization",
     "projectType": "WordPress",
-    "projectThumbnail": "/public/Images/gmk-thumbnail.PNG",
+    "projectThumbnail": "/Images/gmk-thumbnail.PNG",
     "liveDemoURL": "https://gmkwelfare.org/",
     "sourceCodeURL": "",
     "techUsed": {
