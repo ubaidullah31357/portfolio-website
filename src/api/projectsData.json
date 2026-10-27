@@ -1,28 +1,216 @@
 [
   {
     "projectID": 1,
-    "projectName": "WorldAtlas Project",
-    "projectThumbnail": "/Images/world-atlas-thumbnail.png",
+    "projectName": "WorldAtlas - Country Explorer",
+    "projectType": "ReactJS",
+    "projectThumbnail": "/public/Images/world-atlas-thumbnail.png",
     "liveDemoURL": "https://world-atlas-reactproject.netlify.app/",
     "sourceCodeURL": "https://github.com/ubaidullah31357/WorldAtlas-ReactProject",
     "techUsed": {
-      "coreTech": "HTML, CSS, JavaScript, React",
-      "otherTech": "React Axios, React Router DOM, React Icons"
+      "coreTech": "React, JavaScript",
+      "otherTech": "REST Countries API, React Router, CSS3"
     },
-    "problemSolved": "",
-    "projectDescription": "WorldAtlas is an interactive web application that allows users to explore and discover information about countries around the world. It's built with React and Vite, using the REST Countries API to fetch real-time country data."
+    "problemSolved": "Makes country-related information easier to explore by presenting country data in an organized interface, allowing users to discover countries and learn about their geographical and demographic details.",
+    "projectDescription": "A React-based country explorer that helps users browse countries around the world and explore information such as flags, capitals, regions, and population. The project demonstrates component-based frontend development, API integration, and interactive data presentation.",
+    "details": {
+      "introduction": "WorldAtlas is a country information web application developed with React. It provides an interactive way to explore countries and access important geographical and demographic information through a structured user interface.",
+      "challenge": "Fetching and presenting country data from an external API while keeping information organized, making individual countries easy to find, and providing a consistent browsing experience.",
+      "solution": "Built a component-based React interface to display country information obtained from a country data API. Organized country details into readable views and implemented browsing functionality to help users find and explore relevant information.",
+      "highlights": [
+        "React-based country exploration interface.",
+        "Country information and flag presentation.",
+        "Integration with a country data API.",
+        "Organized display of geographical and demographic information.",
+        "Reusable React components.",
+        "Interactive country browsing experience.",
+        "Frontend development using JavaScript and CSS."
+      ]
+    }
   },
+
   {
     "projectID": 2,
-    "projectName": "Assembly: Endgame",
-    "projectThumbnail": "/Images/Endgame1.png",
+    "projectName": "Endgame - Assembly Game",
+    "projectType": "ReactJS",
+    "projectThumbnail": "/public/Images/Endgame1.png",
     "liveDemoURL": "https://endgame-assembly-game.vercel.app/",
     "sourceCodeURL": "https://github.com/ubaidullah31357/endgame-assembly-game",
     "techUsed": {
-      "coreTech": "HTML, CSS, JavaScript, React",
-      "otherTech": "React Confetti"
+      "coreTech": "React, JavaScript",
+      "otherTech": "Vite, CSS, clsx, react-confetti, ESLint"
     },
-    "problemSolved": "",
-    "projectDescription": "Assembly — Endgame is  A lightweight React word-guessing game (Hangman-style) that combines playful visuals with accessible UI patterns. Word-guessing gameplay with A–Z keyboard buttons. Visual 'language chips' represent remaining attempts; wrong guesses mark chips as lost."
+    "problemSolved": "Creates an engaging and interactive way to practice word recognition and logical thinking through a Hangman-style guessing game, with a programming-themed challenge that eliminates a language after each incorrect guess.",
+    "projectDescription": "A React-based word-guessing game inspired by Hangman, where players attempt to discover a hidden word before running out of chances. Each incorrect guess eliminates a programming language, adding a fun programming-themed twist. The game features an interactive letter keyboard, dynamic game states, accessible status announcements, and a confetti celebration when the player wins.",
+    "details": {
+      "introduction": "Endgame - Assembly Game is an interactive browser game developed with React and Vite. Players guess a randomly selected hidden word one letter at a time while trying to prevent all programming languages from being eliminated.",
+      "challenge": "Managing interactive gameplay, tracking correct and incorrect guesses, updating the interface dynamically, preventing repeated letter selections, and handling win and loss conditions while keeping the game simple and accessible.",
+      "solution": "Built the game interface and logic with React components and state management. Implemented an interactive A-Z keyboard, dynamic word revelation, visual feedback for incorrect guesses, programming-language elimination indicators, and conditional win/loss messages. Integrated react-confetti for winning celebrations and accessible status announcements for screen readers.",
+      "highlights": [
+        "Interactive Hangman-style word-guessing gameplay.",
+        "Random word selection for replayable rounds.",
+        "On-screen A-Z keyboard with correct and incorrect guess feedback.",
+        "Programming-language elimination mechanic.",
+        "Dynamic game status and win/loss handling.",
+        "Confetti animation after a successful guess.",
+        "Accessible status announcements using aria-live.",
+        "Modular React components, utilities, and game data.",
+        "Deployed live using Vercel."
+      ]
+    }
+  },
+
+  {
+    "projectID": 3,
+    "projectName": "WonFast - E-Commerce Site",
+    "projectType": "WordPress",
+    "projectThumbnail": "/public/Images/wonfast-thumbnail.PNG",
+    "liveDemoURL": "https://wonfast.co.uk/",
+    "sourceCodeURL": "",
+    "techUsed": {
+      "coreTech": "WordPress, WooCommerce",
+      "otherTech": "Elementor, PHP, Custom CSS, WooCommerce Shortcodes, Amazon Affiliate Links"
+    },
+    "problemSolved": "Provides a centralized platform for discovering selected products, exploring their features and specifications, and navigating to Amazon to complete purchases.",
+    "projectDescription": "A WordPress-based e-commerce site for both simple and Amazon affiliate product showcase featuring curated products, detailed product pages, custom product layouts, Add to Cart option on site and direct links to Amazon. The website is designed to help visitors discover products and make informed purchasing decisions through an organized and user-friendly shopping experience.",
+    "details": {
+      "introduction": "WonFast is an online e-commerce site for product discovery, purchasing products on site and Amazon affiliate showcase website built with WordPress and WooCommerce. It presents selected products with images, descriptions, specifications, Add to Cart option and links that direct customers to Amazon for checkout.",
+      "challenge": "Creating a consistent product discovery experience that presents product information clearly, showcases featured products effectively, purchasing products on site and guides visitors from browsing to the external Amazon purchasing process.",
+      "solution": "Developed a WordPress and WooCommerce-based product showcase with organized product listings, featured product sections, detailed product information, image galleries, Add to Cart option and Amazon affiliate links. Customized product layouts and styling to create a consistent browsing experience across the website.",
+      "highlights": [
+        "WordPress website development and customization.",
+        "WooCommerce product management using simple product types.",
+        "WooCommerce product management using external/affiliate product types.",
+        "Custom featured product sections and product grid layouts.",
+        "Product image galleries and detailed product specifications.",
+        "Add to Cart button for on site purchasing.",
+        "Amazon affiliate links for external purchasing.",
+        "Custom CSS styling for consistent product presentation.",
+        "Responsive page layouts and user-friendly navigation.",
+        "Product discovery, search, and newsletter signup sections."
+      ]
+    }
+  },
+
+  {
+    "projectID": 4,
+    "projectName": "GMK Welfare Organization",
+    "projectType": "WordPress",
+    "projectThumbnail": "/public/Images/gmk-thumbnail.PNG",
+    "liveDemoURL": "https://gmkwelfare.org/",
+    "sourceCodeURL": "",
+    "techUsed": {
+      "coreTech": "WordPress",
+      "otherTech": "Elementor, Contact Form 7, Custom CSS, Responsive Web Design"
+    },
+    "problemSolved": "Provides an accessible online platform for persons with disabilities, families, volunteers, and supporters to explore welfare services, request assistance, register as volunteers, and connect with the organization.",
+    "projectDescription": "A WordPress-based welfare organization website designed to present community support initiatives and make it easier for people to access assistance. The website showcases disability support programs, healthcare access, assistive devices, education, employment opportunities, and volunteer registration, helping connect individuals and families with relevant welfare services.",
+    "details": {
+      "introduction": "GMK Welfare Organization is a community-focused welfare website dedicated to supporting persons with disabilities and promoting accessibility, inclusion, and equal opportunities. The website provides information about welfare programs and offers ways for individuals to request support or contribute to the organization's initiatives.",
+      "challenge": "Presenting diverse welfare programs and support services in a clear, accessible, and organized way while helping beneficiaries, families, volunteers, and potential supporters quickly find the information and actions relevant to them.",
+      "solution": "Developed a WordPress-based website with structured pages for welfare programs, organizational information, and contact details. Integrated support-request and volunteer-registration forms, organized service information into dedicated sections, and incorporated clear calls to action to help visitors connect with the organization.",
+      "highlights": [
+        "WordPress website development and customization.",
+        "Welfare organization website with a community-focused design.",
+        "Dedicated sections for disability support and welfare programs.",
+        "Support-request form integration.",
+        "Volunteer registration and contact forms.",
+        "Information architecture for healthcare, assistive devices, education, and employment support.",
+        "Clear calls to action for requesting assistance and getting involved.",
+        "Responsive layouts and user-friendly navigation."
+      ]
+    }
+  },
+
+  {
+    "projectID": 5,
+    "projectName": "Blog CMS - Content Management System",
+    "projectType": "NextJS",
+    "projectThumbnail": "",
+    "liveDemoURL": "",
+    "sourceCodeURL": "https://github.com/ubaidullah31357/blog-cms",
+    "techUsed": {
+      "coreTech": "Next.js, React, TypeScript, MySQL",
+      "otherTech": "Tailwind CSS, mysql2, Next.js App Router, Server Actions, Route Handlers"
+    },
+    "problemSolved": "Simplifies blog content management by providing a centralized dashboard for creating, editing, publishing, and deleting blog posts, with persistent MySQL storage and automatic content refresh.",
+    "projectDescription": "A full-stack blog content management system developed with Next.js, TypeScript, and MySQL. The application provides an administrative dashboard for managing blog posts, supports database-backed CRUD operations, and displays published content through dynamic blog pages. It demonstrates full-stack development, database integration, and modern Next.js application architecture.",
+    "details": {
+      "introduction": "Blog CMS is a full-stack web application designed to simplify blog content creation and management. Built with Next.js and MySQL, it combines an administrative dashboard with a blog interface, allowing content to be managed through a centralized system.",
+      "challenge": "Implementing reliable database-backed content management, handling post creation and updates, keeping the dashboard and blog pages synchronized after changes, and organizing frontend and backend functionality within the Next.js App Router architecture.",
+      "solution": "Developed a dashboard with CRUD functionality connected to a MySQL database. Implemented server-side data operations, post management, dynamic blog routes, and path revalidation to keep displayed content updated after relevant changes. Structured the application using Next.js features to integrate the frontend, backend operations, and database access.",
+      "highlights": [
+        "Full-stack development using Next.js and TypeScript.",
+        "MySQL database integration using mysql2.",
+        "Administrative dashboard for blog management.",
+        "Create, read, update, and delete blog posts.",
+        "Dynamic blog post pages using App Router routing.",
+        "Database-backed content persistence.",
+        "Server Actions and backend data operations.",
+        "Content refresh using revalidatePath and router.refresh.",
+        "Separation of frontend components and database operations.",
+        "GitHub version control and project documentation."
+      ]
+    }
+  },
+
+  {
+    "projectID": 6,
+    "projectName": "Authentication Dashboard",
+    "projectType": "NextJS",
+    "projectThumbnail": "",
+    "liveDemoURL": "",
+    "sourceCodeURL": "https://github.com/ubaidullah31357/authentication-dashboard",
+    "techUsed": {
+      "coreTech": "Next.js, React, TypeScript, MySQL",
+      "otherTech": "bcryptjs, Server Actions, HTTP-only Cookies, Database Sessions, Tailwind CSS"
+    },
+    "problemSolved": "Provides a secure authentication system and administrative dashboard for managing user accounts, controlling access based on roles, and maintaining authenticated sessions across requests.",
+    "projectDescription": "A full-stack authentication and user management application built with Next.js, TypeScript, and MySQL. The project implements user authentication, password hashing, database-backed session management, protected dashboard access, and administrative features for managing users and their roles.",
+    "details": {
+      "introduction": "Authentication Dashboard is a full-stack web application designed to demonstrate authentication, session management, and user administration using Next.js and MySQL. It provides login functionality and a dashboard for managing user accounts with role-based access controls.",
+      "challenge": "Implementing secure password verification, maintaining authenticated sessions, protecting dashboard access, and ensuring that administrative user-management operations are handled through appropriate server-side logic.",
+      "solution": "Implemented password hashing and verification using bcryptjs, database-backed session management, and HTTP-only session cookies. Integrated protected dashboard functionality, user listing, account deletion, and role updates to support administrative user management.",
+      "highlights": [
+        "Full-stack development using Next.js and TypeScript.",
+        "MySQL database integration.",
+        "Password hashing and verification using bcryptjs.",
+        "Database-backed session management.",
+        "HTTP-only session cookies with a 30-day lifetime.",
+        "Protected dashboard and authentication flow.",
+        "Administrative user management dashboard.",
+        "User listing, deletion, and role updates.",
+        "Server-side authentication and session handling.",
+        "Reusable application components and structured project architecture."
+      ]
+    }
+  },
+
+  {
+    "projectID": 7,
+    "projectName": "To-Do Mobile App",
+    "projectType": "React Native",
+    "projectThumbnail": "",
+    "liveDemoURL": "",
+    "sourceCodeURL": "https://github.com/ubaidullah31357/to-do-mobile-app",
+    "techUsed": {
+      "coreTech": "React Native, TypeScript, Expo",
+      "otherTech": "NativeWind, Tailwind CSS"
+    },
+    "problemSolved": "Helps users organize their daily activities by providing a mobile interface for managing tasks and keeping track of their to-do list.",
+    "projectDescription": "A mobile task management application built with React Native, TypeScript, and Expo. The project focuses on providing a mobile-friendly interface for organizing daily tasks, demonstrating cross-platform mobile development, reusable components, and utility-first styling with NativeWind.",
+    "details": {
+      "introduction": "To-Do Mobile App is a mobile application project developed using React Native and Expo. It aims to provide a convenient way for users to organize and manage their daily tasks through a dedicated mobile interface.",
+      "challenge": "Designing a clear mobile user interface, organizing reusable components, and implementing task management interactions while maintaining a consistent layout across supported mobile platforms.",
+      "solution": "Developed the application using React Native and TypeScript, with Expo providing the development environment and NativeWind supporting utility-based styling. Structured the application with reusable components and organized source files to support maintainability and future feature development.",
+      "highlights": [
+        "Cross-platform mobile application development with React Native and Expo.",
+        "TypeScript for typed components and application logic.",
+        "NativeWind and Tailwind-style utility classes for styling.",
+        "Mobile-focused user interface for task management.",
+        "Reusable React Native components.",
+        "Organized source code and application configuration.",
+        "Foundation for daily task organization and productivity."
+      ]
+    }
   }
 ]

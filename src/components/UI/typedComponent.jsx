@@ -8,13 +8,15 @@ export function TypedComponent() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        'Frontend Web Developer',
+        'FullStack Web Developer',
+        'Mobile App Developer',
         'Wordpress Designer',
         'Certified Ethical Hacker',
       ],
       typeSpeed: 60,
       loop: true,
       loopCount: Infinity,
+      cursorClass: 'typed-cursor',
     });
 
     return () => {
@@ -24,8 +26,11 @@ export function TypedComponent() {
   }, []);
 
   return (
-    <div className="typed-component">
-      <span ref={el} />
+    <div className="typed-font-audiowide">
+      <span
+        ref={el}
+        className="break-words font-['Audiowide'] text-[clamp(1rem,5vw,2rem)] font-normal text-[#808080]"
+      />
     </div>
   );
 }

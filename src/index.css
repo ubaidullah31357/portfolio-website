@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist/Urbanist-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./assets/fonts/Urbanist/Urbanist-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Audiowide';
+  src: url('./assets/fonts/Audiowide/Audiowide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: 'Quicksand', sans-serif;
+  --font-audiowide: 'Audiowide', sans-serif;
+  --animate-social-icons-slider: social-icons-slider 25s linear 2ms infinite;
+  --animate-icons-hover: icons-hover 2ms ease-in 7ms 1;
+}
+
+@keyframes social-icons-slider {
+  0% {
+    transform: translateX(45vw);
+  }
+  100% {
+    transform: translateX(-45vw);
+  }
+}
+
+@keyframes icons-hover {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply box-border font-sans;
+  }
+
+  html {
+    @apply scroll-smooth bg-[#0c1d32] text-[#fffbfc] leading-[normal];
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  a,
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+.typed-content {
+  background: transparent;
+  color: #808080;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.typed-font-audiowide .typed-cursor {
+  color: #00ff8b;
+  font-weight: 700;
+}
