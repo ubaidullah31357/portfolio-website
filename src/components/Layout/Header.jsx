@@ -56,8 +56,15 @@ export const Header = () => {
           </ul>
         </nav>
         <div className="order-0">
-          <button className="flex h-8 w-32 items-center justify-center gap-1.25 rounded-[3px] border border-[#00ff8b] bg-[#00ff8b] text-[0.9rem] font-semibold text-black hover:bg-[#07e983]">
-            Visit Resume <HiOutlineBriefcase />
+          <button>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-8 w-32 items-center justify-center gap-1.25 rounded-[3px] border border-[#00ff8b] bg-[#00ff8b] text-[0.9rem] font-semibold text-black hover:bg-[#07e983]"
+            >
+              Visit Resume <HiOutlineBriefcase />
+            </a>
           </button>
         </div>
       </div>
