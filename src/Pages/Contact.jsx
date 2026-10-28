@@ -43,7 +43,8 @@ export const Contact = () => {
         <form
           className="flex flex-col items-center justify-center gap-4"
           id="contact-form"
-          onSubmit={handleOnSubmit}
+          // onSubmit={handleOnSubmit}
+          netlify
         >
           <label className="w-full" htmlFor="username">
             <input
