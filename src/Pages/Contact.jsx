@@ -1,4 +1,3 @@
-import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { LuMail } from 'react-icons/lu';
 
@@ -6,31 +5,35 @@ export const Contact = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [formStatus, setFormStatus] = useState('');
 
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        e.target,
-        import.meta.env.VITE_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert('Message Sent Successfully');
-          setUsername('');
-          setEmail('');
-          setMessage('');
-        },
-        (error) => {
-          console.log(error.text);
-          alert('Something went wrong!');
-        }
-      );
-    console.log(import.meta.env.VITE_PUBLIC_KEY);
+  const handleOnSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      if (!response.ok) {
+        throw new Error(
+          `Form submission failed with status ${response.status}`
+        );
+      }
+
+      setFormStatus('Message sent successfully.');
+      setUsername('');
+      setEmail('');
+      setMessage('');
+    } catch (error) {
+      console.error('Unable to submit the contact form:', error);
+      setFormStatus('Something went wrong. Please try again later.');
+    }
   };
+
   return (
     <section
       className="flex scroll-mt-24 flex-col items-center justify-center px-4 py-8 sm:px-8"
@@ -43,11 +46,18 @@ export const Contact = () => {
         <form
           className="flex flex-col items-center justify-center gap-4"
           id="contact-form"
-          // onSubmit={handleOnSubmit}
+          name="contact"
           method="POST"
-          action="/success"
-          netlify
+          action="/"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={handleOnSubmit}
         >
+          <input type="hidden" name="form-name" value="contact" />
+          <label className="hidden" aria-hidden="true">
+            Do not fill this out if you are human:
+            <input name="bot-field" tabIndex="-1" autoComplete="off" />
+          </label>
           <label className="w-full" htmlFor="username">
             <input
               type="text"
@@ -92,6 +102,11 @@ export const Contact = () => {
           >
             Submit
           </button>
+          {formStatus && (
+            <p className="w-full text-center" role="status" aria-live="polite">
+              {formStatus}
+            </p>
+          )}
         </form>
       </article>
     </section>

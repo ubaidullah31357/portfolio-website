@@ -5,9 +5,6 @@ import {
 } from 'react-router-dom';
 import { AppLayout } from './components/Layout/AppLayout';
 import { Home } from './Pages/Home';
-import emailjs from '@emailjs/browser';
-
-emailjs.init(import.meta.env.VITE_PUBLIC_KEY);
 
 const router = createBrowserRouter([
   {
